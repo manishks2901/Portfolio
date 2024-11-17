@@ -2,7 +2,7 @@
 import CardComponent from "./card";
 import ReadMoreButtons from "@/components/button";
 import { type CarouselApi } from "@/components/ui/carousel";
-import { useState, useEffect, ButtonHTMLAttributes } from "react";
+import { useState, useEffect } from "react";
 import {
   Carousel,
   CarouselContent,

@@ -10,13 +10,13 @@ const TechStack = () => {
             <div className="md:w-3/5 w-full md:order-1 order-2">
                 <Paragraph 
                     title="Front-end"
-                    description="Typescript / React / Recoil / NextJs / Shadcn /"
+                    description="Typescript / React / Recoil / NextJs / Shadcn / HTML / Tailwind / CSS / ....."
                     className="bg-white font-mono font-thin text-black"
                 />
                 <div className="flex justify-between">
                 <Paragraph 
-                    title="Styles"
-                    description="Tailwind / CSS"
+                    title="DataBases"
+                    description="SQL / Postgress / Prisma / MongoDB"
                     className=" font-mono font-thin text-white w-1/2 border-2 border-gray-700"
                 />
                 <div className="flex w-1/2 justify-center items-center">
@@ -26,8 +26,8 @@ const TechStack = () => {
 
                 </div>
                 <Paragraph 
-                    title="Styles"
-                    description="Tailwind / CSS"
+                    title="Backend"
+                    description="Node.js / Express / Hono / Git / Redis / WebRTC / tRPC / Kafka / ...."
                     className=" font-mono font-thin  border-2 border-gray-700"
                 />
                 <div className="flex justify-between">
@@ -39,13 +39,13 @@ const TechStack = () => {
 
                 <Paragraph 
                     title="Devops"
-                    description="Tailwind / CSS"
+                    description="AWS / Cloudflare / Docker / Kubernetes / ...."
                     className=" font-mono font-thin text-white w-3/5 border-2 border-gray-700"
                 />
 
                 </div>
         </div>
-            <div className="md:w-2/5 w-full h-[400px] md:order-2 order-1 flex justify-center items-center mt-3">
+            <div className="md:w-2/5 w-full md:h-[700px] md:order-2 order-1 flex justify-center items-center mt-3">
                 <div className="relative w-[400px] h-[400px] flex justify-center items-center rounded-full  text-black">
                     <div className="absolute -top-11">
                     <Image 

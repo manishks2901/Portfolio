@@ -8,7 +8,7 @@ const AboutMe = () => {
             </div>
             <div className="md:order-1 order-2  md:w-2/3 w-full flex items-center md:mt-60 mt-4  flex justify-end items-center ">
                 <p className="md:text-2xl text-lg font-bold font-mono">
-                    Hello!I'm Manish,I'm a <br />
+                    Hello!I&apos;m Manish,I&apos;m a <br />
                     Full-Stack developer <br />
                     With having a year of developing expreience.
                 </p>
